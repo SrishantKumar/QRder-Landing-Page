@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { QrCode } from 'lucide-react';
+
 
 export default function Footer() {
   const links = {
@@ -20,9 +20,7 @@ export default function Footer() {
               viewport={{ once: true }}
               className="flex items-center gap-2 mb-4"
             >
-              <div className="w-10 h-10 bg-gradient-to-br from-[#16A34A] to-[#064E3B] rounded-xl flex items-center justify-center">
-                <QrCode className="w-6 h-6 text-white" />
-              </div>
+              <img src="/icon-green.png" alt="QRder Logo" className="w-10 h-10 rounded-xl object-contain" />
               <span className="text-2xl font-bold text-[#0F172A]">QRder</span>
             </motion.div>
             <p className="text-gray-600 mb-4 leading-relaxed">

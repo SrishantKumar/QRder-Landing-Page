@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { QrCode, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Navbar() {
@@ -27,9 +27,7 @@ export default function Navbar() {
                         whileHover={{ scale: 1.05 }}
                         className="flex items-center gap-2"
                     >
-                        <div className="w-10 h-10 bg-gradient-to-br from-[#16A34A] to-[#064E3B] rounded-xl flex items-center justify-center">
-                            <QrCode className="w-6 h-6 text-white" />
-                        </div>
+                        <img src="/icon-green.png" alt="QRder Logo" className="w-10 h-10 rounded-xl object-contain" />
                         <span className="text-2xl font-bold text-[#0F172A]">QRder</span>
                     </motion.a>
 

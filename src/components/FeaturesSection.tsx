@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Smartphone, Clock, MessageSquare, Bell, ToggleLeft, Layout, QrCode } from 'lucide-react';
+import { Smartphone, Clock, MessageSquare, Bell, ToggleLeft, Layout } from 'lucide-react';
 
 export default function FeaturesSection() {
   const featuresLeft = [
@@ -95,9 +95,7 @@ export default function FeaturesSection() {
             >
               <div className="absolute inset-0 bg-green-50 rounded-full animate-pulse opacity-50"></div>
               <div className="relative z-10 flex flex-col items-center">
-                <div className="w-24 h-24 bg-gradient-to-br from-[#16A34A] to-[#064E3B] rounded-2xl flex items-center justify-center mb-4 shadow-lg">
-                  <QrCode className="w-12 h-12 text-white" />
-                </div>
+                <img src="/icon-green.png" alt="QRder Central Command" className="w-24 h-24 object-contain mb-4 drop-shadow-xl" />
                 <h3 className="text-3xl font-bold text-[#0F172A]">QRder</h3>
                 <span className="text-sm font-semibold text-[#16A34A] bg-[#16A34A]/10 px-3 py-1 rounded-full mt-2">
                   Central Command
