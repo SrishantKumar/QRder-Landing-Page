@@ -51,14 +51,14 @@ export default function HeroSection() {
               className="flex flex-col sm:flex-row gap-4"
             >
               <motion.a
-                href="https://wa.me/message/Q7JRYMCCZIB2N1"
+                href="https://sochworks.site/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.98 }}
                 className="group px-8 py-4 bg-[#16A34A] text-white rounded-xl font-semibold shadow-lg shadow-[#16A34A]/30 hover:shadow-xl hover:shadow-[#16A34A]/40 transition-all duration-300 flex items-center justify-center gap-2"
               >
-                Start Free 14-Day Trial
+                Product By SochWorks Studios
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </motion.a>
 
