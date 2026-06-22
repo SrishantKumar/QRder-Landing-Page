@@ -63,7 +63,7 @@ export default function HeroSection() {
               </motion.a>
 
               <motion.a
-                href="https://wa.me/message/Q7JRYMCCZIB2N1"
+                href="https://wa.link/xk7bqm"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.04 }}

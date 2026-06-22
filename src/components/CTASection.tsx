@@ -23,7 +23,7 @@ export default function CTASection() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.a
-              href="https://wa.me/message/Q7JRYMCCZIB2N1"
+              href="https://wa.link/xk7bqm"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.04 }}
@@ -35,7 +35,7 @@ export default function CTASection() {
             </motion.a>
 
             <motion.a
-              href="https://wa.me/message/Q7JRYMCCZIB2N1"
+              href="https://wa.link/xk7bqm"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.04 }}

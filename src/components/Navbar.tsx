@@ -47,7 +47,7 @@ export default function Navbar() {
                     {/* CTA Button */}
                     <div className="hidden md:block">
                         <motion.a
-                            href="https://wa.me/message/Q7JRYMCCZIB2N1"
+                            href="https://wa.link/xk7bqm"
                             target="_blank"
                             rel="noopener noreferrer"
                             whileHover={{ scale: 1.05 }}
@@ -86,7 +86,7 @@ export default function Navbar() {
                             </a>
                         ))}
                         <motion.a
-                            href="https://wa.me/message/Q7JRYMCCZIB2N1"
+                            href="https://wa.link/xk7bqm"
                             target="_blank"
                             rel="noopener noreferrer"
                             whileTap={{ scale: 0.95 }}
